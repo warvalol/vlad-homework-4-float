@@ -1,0 +1,235 @@
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  color: #515151;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+/* исправление clearfix для float */
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* header начало */
+header {
+  display: block;
+}
+
+nav {
+  display: block;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 95px;
+  padding-top: 35px;
+}
+
+.logo {
+  float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555252;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.logo::before {
+  content: "M";
+  color: #4ec6ab;
+  font-weight: 500;
+}
+
+.main-nav {
+  float: right;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-menu {
+  list-style-type: none;
+}
+
+.main-menu-item {
+  display: inline-block;
+  margin-right: 30px;
+}
+.main-menu-item a:hover {
+  color: #48c9b0;
+}
+
+.main-menu-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0f0101;
+}
+/* header конец */
+
+/* это <section class="fp"> */
+section {
+  display: block;
+}
+
+.fp {
+  width: 1110px;
+}
+
+.fp-item-link {
+  float: left;
+  width: 255px;
+  text-decoration: none;
+  line-height: 32px;
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.products-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 72px;
+  text-transform: uppercase;
+  margin: 0px 0px 106px 0px;
+}
+
+/* делаю margin-right всем карточкам товара кроме каждой 4й*/
+.article-fp-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.article-fp-item {
+  list-style: none;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.fp-name {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: #323232;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
+}
+
+.article-fp-item:hover .fp-name {
+  background-color: #1abc9c;
+}
+
+.article-fp-item:hover .fp-price {
+  background-color: #7fd9c7;
+}
+
+.article-fp-img {
+  background-color: #e8effc;
+}
+
+.fp-price {
+  text-align: center;
+  width: 55px;
+  height: 40px;
+  color: white;
+  background-color: #8c8c8c;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
+}
+
+.arcicle-fp-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* это <section class="news"> */
+.news {
+  width: 1110px;
+}
+
+.article-news-item {
+  float: left;
+  width: 350px;
+  text-decoration: none;
+}
+
+.article-news-item:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+.artical-news-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.news-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 72px;
+  text-transform: uppercase;
+  margin: 80px 0px 80px 0px;
+}
+
+h2::after {
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #4ec6ab;
+  content: "";
+  /* поставить полоску по центру
+  через margin: auto; */
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3::after {
+  margin-top: 11px;
+  margin-bottom: 29px;
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+  content: "";
+}
+
+p {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.news-button {
+  background-color: #66cc99;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 45px;
+  width: 159px;
+  height: 51px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 200px;
+}
