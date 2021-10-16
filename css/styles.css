@@ -114,7 +114,7 @@ section {
 }
 .article-fp-item {
   float: left;
-  display: inline-block;
+  display: block;
   width: 255px;
   height: 322px;
   list-style: none;
