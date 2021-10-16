@@ -36,7 +36,6 @@ nav {
 }
 
 .logo {
-  
   margin: auto;
   float: left;
   text-decoration: none;
@@ -61,7 +60,7 @@ nav {
 
 .main-menu {
   margin: 0;
-  
+
   list-style-type: none;
   padding: 0;
 }
@@ -88,6 +87,7 @@ section {
 
 .fp {
   width: 1110px;
+  margin-bottom: 105px;
 }
 
 .fp-item-link {
@@ -149,7 +149,6 @@ section {
   height: 282px;
   background-color: #e8effc;
 }
-
 
 .fp-price {
   float: right;
