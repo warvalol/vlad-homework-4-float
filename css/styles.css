@@ -192,6 +192,10 @@ section {
   text-decoration: none;
 }
 
+.news {
+  margin-bottom: 45px;
+}
+
 .article-news-item:not(:last-of-type) {
   margin-right: 30px;
 }
@@ -253,7 +257,7 @@ p {
   color: white;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
   width: 159px;
   height: 51px;
   border: none;
